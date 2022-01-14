@@ -1,0 +1,20 @@
+h1{
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+div{
+   margin: 30px;
+}
+
+.done{
+   background-color: chartreuse;
+}
+
+.remove{
+   background-color: crimson;
+}
+
+.finished{
+   text-decoration: line-through;
+}
+
