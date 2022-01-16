@@ -3,7 +3,7 @@ h1{
 }
 
 div{
-   margin: 30px;
+   margin: 10px;
 }
 
 .done{
@@ -18,3 +18,36 @@ div{
    text-decoration: line-through;
 }
 
+#container div:hover{
+   background-color: dimgray;
+}
+
+#container div{
+   background-color: lightslategrey;
+   border: black;
+   border-radius: 2px;
+   transition-duration: 0.4s;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   padding: 5px;
+}
+
+#task_input{
+   width: 300px;
+}
+
+#about{
+   border-top: midnightblue 2px solid;
+   padding:10px;
+}
+
+#about input{
+   background-color: orange;
+   padding:3px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+#about p{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+}
