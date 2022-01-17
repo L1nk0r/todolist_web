@@ -18,6 +18,10 @@ div{
    text-decoration: line-through;
 }
 
+.important{
+   background-color: rgb(38, 0, 255);
+}
+
 #container div:hover{
    background-color: dimgray;
 }

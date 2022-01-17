@@ -3,7 +3,7 @@ function add_task(){
 
    if (task != ""){
       var newTask = document.createElement("div");
-      newTask.innerHTML = '<input type="button" class="done" onclick="markDone(this.parentNode)"  value="&#x2713;" /> ' + '<input type="button" class="remove" onclick="remove(this.parentNode)" value="&#x2715;" /> ' + task;
+      newTask.innerHTML = '<input type="button" class="done" onclick="markDone(this.parentNode)"  value="&#x2713;" /> ' + '<input type="button" class="remove" onclick="remove(this.parentNode)" value="&#x2715;" /> ' + '<input type="button" onclick="important(this)" value="!" /> ' + task;
 
       document.getElementById("container").appendChild(newTask);
    }
@@ -18,6 +18,10 @@ function markDone (item) {
 
 function remove (item) {
    item.remove();
+}
+
+function important(item){
+   item.className = 'important';
 }
 
 function about(){
